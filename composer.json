@@ -3,7 +3,7 @@
 	"description": "Replaces block-patterns taken from themes with customized versions for the figuren.theater WordPress multisite network.",
     "homepage": "https://websites.fuer.figuren.theater",
     "type": "wordpress-plugin",
-    "keywords": ["wordpress", "wordpress-plugin", "site-editor", "blocks", "block-pattern", "block-theme",],
+    "keywords": ["wordpress", "wordpress-plugin", "site-editor", "blocks", "block-pattern", "block-theme"],
     "license": "GPL-3.0-or-later",
     "authors": [
         {
