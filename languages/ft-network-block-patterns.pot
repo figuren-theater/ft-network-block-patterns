@@ -1,0 +1,84 @@
+# Copyright (C) 2022 Carsten Bach
+# This file is distributed under the MIT.
+msgid ""
+msgstr ""
+"Project-Id-Version: f.t | NETWORK Block Patterns 2022.02.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ft-network-block-patterns\n"
+"Last-Translator: Carsten Bach <mail@carsten-bach.de>\n"
+"Language-Team: figuren.theater <info@figuren.theater>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-02T16:30:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: ft-network-block-patterns\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. Plugin Name of the plugin
+msgid "f.t | NETWORK Block Patterns"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://websites.fuer.figuren.theater/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Removes and Re-Ads BlockPatterns taken from themes and customized for user use cases."
+msgstr ""
+
+#. Author of the plugin
+msgid "Carsten Bach"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://carsten-bach.de"
+msgstr ""
+
+#: ft-network-block-patterns.php:165
+msgid "Theater"
+msgstr ""
+
+#: ft-network-block-patterns.php:171
+msgid "figuren.theater"
+msgstr ""
+
+#: inc/patterns/twentytwentytwo/hidden-404.php:12
+msgid "This page could not be found."
+msgstr ""
+
+#: inc/patterns/__ft_global/copyright.php:7
+msgid "Copyright (Current Year)"
+msgstr ""
+
+#: inc/patterns/__ft_global/footer-musthave-navigation.php:6
+msgid "Minimal Navigation"
+msgstr ""
+
+#: inc/patterns/__ft_global/footer-musthave-navigation.php:7
+msgid "Navigation containing prepared Links to \"Kontakt\", \"Impressum\" & \"Datenschutz\""
+msgstr ""
+
+#: inc/patterns/__ft_global/merch-websfft-and-wp.php:7
+msgid "Merch Links websites.fuer.figuren.theater & WordPress"
+msgstr ""
+
+#: inc/patterns/__ft_global/production-page-dark.php:9
+msgid "Production Page: Dark variant"
+msgstr ""
+
+#: inc/patterns/__ft_global/production-page.php:9
+msgid "Production Page: Light variant"
+msgstr ""
+
+#: inc/patterns/__ft_global/production-subsites-playlist.php:9
+msgid "Production Subsite Audio PLaylist"
+msgstr ""
+
+#: inc/patterns/__ft_global/production-subsites-todo.php:8
+msgid "Prepare & Setup"
+msgstr ""
