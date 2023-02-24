@@ -3,7 +3,7 @@
 * Plugin Name:  f.t | NETWORK Block Patterns
 * Description:  Removes and Re-Ads BlockPatterns taken from themes and customized for user use cases.
 * Plugin URI:   https://websites.fuer.figuren.theater/
-* Version:      2023.01.05
+* Version:      1.0.3
 * Author:       Carsten Bach
 * Author URI:   https://carsten-bach.de
 * License:      MIT
