@@ -7,6 +7,7 @@ return array(
 	'description'      => __( 'Navigation containing prepared Links to "Kontakt", "Impressum" & "Datenschutz"', 'ft-network-block-patterns' ),
 	'viewportWidth' => 400,
 	'categories' => array( 'footer' ),
+	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p>Kontakt</p>
