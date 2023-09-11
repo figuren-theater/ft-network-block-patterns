@@ -34,7 +34,7 @@ return array(
 
 	// important parts of productions
 	'production-important-metas', # <!-- wp:pattern {"slug":"__ft_global/production-important-metas"} /-->
-	'production-important-metas-horizontal', # <!-- wp:pattern {"slug":"__ft_global/production-important-metas-horizontal"} /-->
+	// 'production-important-metas-horizontal', # <!-- wp:pattern {"slug":"__ft_global/production-important-metas-horizontal"} /-->
 	'production-important-metas-with-image',
 
 	// Layouts can be used for Productions Details.
