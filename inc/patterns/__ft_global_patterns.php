@@ -27,21 +27,10 @@ return array(
 	'merch-websfft-and-wp',
 
 	// TEMP disabled
-	#'copy-paste-facts',
+	// 'copy-paste-facts',
 
 	'theater-faq',
 	'theater-content-abos',
-
-	// important parts of productions
-	'production-important-metas', # <!-- wp:pattern {"slug":"__ft_global/production-important-metas"} /-->
-	// 'production-important-metas-horizontal', # <!-- wp:pattern {"slug":"__ft_global/production-important-metas-horizontal"} /-->
-	'production-important-metas-with-image',
-
-	// Layouts can be used for Productions Details.
-	'production-page',
-	'production-page-dark',
-	'production-page-dark-v2',
-
 
 	// Typical full-page Layouts for typical production-subsites.
 	'production-subsites-copy-paste-facts',
