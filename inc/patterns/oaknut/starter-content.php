@@ -1,24 +1,4 @@
 <?php
-/*
-
-use Figuren_Theater\Network\Post_Types;
-
-
-		$post_type__ft_link = Post_Types\Post_Type__ft_link::get_instance();
-		$_social_links = $post_type__ft_link->get_queried_urls();
-
-\do_action( 'qm/debug', $_social_links );
-
-		$_social_blocks = array_walk($_social_links, function ($ft_link) {
-			return json_encode([
-				'label'   => $ft_link->post_title,
-				'service' => $ft_link->post_title,
-				'url'     => $ft_link->post_content,
-			]);
-		});
-		$return = var_export($_social_blocks,true);
-*/
-
 /**
  * f.t Starter content for the theme.
  */
@@ -42,7 +22,7 @@ return array(
 			<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 				<!-- wp:image {"align":"center","width":120,"height":120,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"0px"}},"className":"is-style-rounded"} -->
 				<figure class="wp-block-image aligncenter size-full is-resized has-custom-border is-style-rounded"><img
-						src="'. esc_url( get_template_directory_uri() ) .'/assets/images/logo.png" alt=""
+						src="' . esc_url( get_template_directory_uri() ) . '/assets/images/logo.png" alt=""
 						style="border-radius:0px" width="120" height="120" /></figure>
 				<!-- /wp:image -->
 
