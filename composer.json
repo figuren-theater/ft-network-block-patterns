@@ -1,10 +1,16 @@
 {
 	"name": "figuren-theater/ft-network-block-patterns",
 	"description": "Replaces block-patterns taken from themes with customized versions for the figuren.theater WordPress multisite network.",
-    "homepage": "https://websites.fuer.figuren.theater",
+    "license": "GPL-3.0+",
     "type": "wordpress-plugin",
-    "keywords": ["wordpress", "wordpress-plugin", "site-editor", "blocks", "block-pattern", "block-theme"],
-    "license": "GPL-3.0-or-later",
+    "keywords": [
+        "wordpress",
+        "wordpress-plugin",
+        "site-editor",
+        "blocks",
+        "block-pattern",
+        "block-theme"
+    ],
     "authors": [
         {
             "name": "figuren.theater",
@@ -17,13 +23,13 @@
             "role": "Developer"
         }
     ],
+    "homepage": "https://websites.fuer.figuren.theater",
     "support": {
         "email": "info@figuren.theater",
         "issues": "https://github.com/figuren-theater/ft-network-block-patterns/issues",
         "source": "https://github.com/figuren-theater/ft-network-block-patterns"
     },
-	"require": {
-        "php": ">=7.1",
-        "johnpbloch/wordpress": "^6.0"
-	}
+    "require-dev": {
+        "figuren-theater/code-quality": "*"
+    }
 }
