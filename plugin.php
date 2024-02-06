@@ -35,7 +35,7 @@ const DIRECTORY = __DIR__;
 /**
  * TO REMOVE 
  * 
- * @todo Add (composer) autoloading strategy
+ * @todo https://github.com/figuren-theater/ft-network-block-patterns/issues/7 Add (composer) autoloading strategy
  */
 require_once DIRECTORY . '/inc/namespace.php'; // phpcs:ignore WordPressVIPMinimum.Files.IncludingFile.UsingCustomConstant
 
