@@ -1,7 +1,10 @@
 <?php
 /**
  * 404 content.
+ * 
+ * @package figuren-theater/ft-network-block-patterns
  */
+
 return array(
 	'title'    => __( '404 content', 'twentytwentytwo' ),
 	'inserter' => false,

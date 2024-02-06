@@ -51,34 +51,34 @@ msgstr ""
 msgid "This page could not be found."
 msgstr ""
 
-#: inc/patterns/__ft_global/copyright.php:7
+#: inc/patterns/-ft-global/copyright.php:7
 msgid "Copyright (Current Year)"
 msgstr ""
 
-#: inc/patterns/__ft_global/footer-musthave-navigation.php:6
+#: inc/patterns/-ft-global/footer-musthave-navigation.php:6
 msgid "Minimal Navigation"
 msgstr ""
 
-#: inc/patterns/__ft_global/footer-musthave-navigation.php:7
+#: inc/patterns/-ft-global/footer-musthave-navigation.php:7
 msgid "Navigation containing prepared Links to \"Kontakt\", \"Impressum\" & \"Datenschutz\""
 msgstr ""
 
-#: inc/patterns/__ft_global/merch-websfft-and-wp.php:7
+#: inc/patterns/-ft-global/merch-websfft-and-wp.php:7
 msgid "Merch Links websites.fuer.figuren.theater & WordPress"
 msgstr ""
 
-#: inc/patterns/__ft_global/production-page-dark.php:9
+#: inc/patterns/-ft-global/production-page-dark.php:9
 msgid "Production Page: Dark variant"
 msgstr ""
 
-#: inc/patterns/__ft_global/production-page.php:9
+#: inc/patterns/-ft-global/production-page.php:9
 msgid "Production Page: Light variant"
 msgstr ""
 
-#: inc/patterns/__ft_global/production-subsites-playlist.php:9
+#: inc/patterns/-ft-global/production-subsites-playlist.php:9
 msgid "Production Subsite Audio PLaylist"
 msgstr ""
 
-#: inc/patterns/__ft_global/production-subsites-todo.php:8
+#: inc/patterns/-ft-global/production-subsites-todo.php:8
 msgid "Prepare & Setup"
 msgstr ""

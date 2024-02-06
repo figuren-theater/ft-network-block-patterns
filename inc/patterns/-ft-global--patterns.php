@@ -2,17 +2,17 @@
 /**
  * F.t GLOBAL: Block Patterns
  *
- * @package ft_network_block_patterns
+ * Could be:
+ *   'footer-',
+ *   'general-',
+ *   'header-',
+ *   'hidden-',
+ *   'page-',
+ *   'query-',
+ *
  * @since 2022.05.16
- *
- * could be:
- *
- * 'footer-',
- * 'general-',
- * 'header-',
- * 'hidden-',
- * 'page-',
- * 'query-',
+ * 
+ * @package figuren-theater/ft-network-block-patterns
  */
 
 return array(
@@ -26,8 +26,8 @@ return array(
 	// Links to websfft & wp.
 	'merch-websfft-and-wp',
 
-	// TEMP disabled
-	// 'copy-paste-facts',
+	// TEMP disabled.
+	// 'copy-paste-facts', // !
 
 	'theater-faq',
 	'theater-content-abos',

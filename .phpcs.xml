@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ruleset name="ft-network-block-patterns">
+	<description>Coding standards for ft-network-block-patterns</description>
+
+	<file>.</file>
+	<arg name="basepath" value="./"/><!-- Strip the file paths down to the relevant bit -->
+
+	<!-- Rules: figuren.theater Coding Standards -->
+	<rule ref="figurentheater" />
+
+	<!-- Allow commented out code because it is used like switches here.  -->
+	<rule ref="Squiz.PHP.CommentedOutCode.Found">
+		<exclude-pattern>/patterns/*.php</exclude-pattern>
+	</rule>
+
+	<!-- Allow additional text_domains as we're working with codesnippets from 3rd-party themes -->
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="bright-mode"/>
+				<element value="ft-network-block-patterns"/>
+				<element value="oaknut"/>
+				<element value="pendant"/>
+				<element value="twentytwentytwo"/>
+			</property>
+		</properties>
+	</rule> 
+</ruleset>

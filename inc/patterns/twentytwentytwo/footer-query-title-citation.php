@@ -1,7 +1,10 @@
 <?php
 /**
- * Footer with query, title, and citation
+ * Footer with query, title, and citation.
+ * 
+ * @package figuren-theater/ft-network-block-patterns
  */
+
 return array(
 	'title'      => __( 'Footer with query, title, and citation', 'twentytwentytwo' ),
 	'categories' => array( 'footer' ),
@@ -25,7 +28,7 @@ return array(
 					<div class="wp-block-group alignwide" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:site-title {"level":0} /-->
 
 					<!-- wp:group {"layout":{"type":"flex","justifyContent":"right"}} -->
-					<div class="wp-block-group"><!-- wp:pattern {"slug":"__ft_global/merch-websfft-and-wp"} /--></div>
+					<div class="wp-block-group"><!-- wp:pattern {"slug":"-ft-global/merch-websfft-and-wp"} /--></div>
 					<!-- /wp:group --></div>
 					<!-- /wp:group --></div>
 					<!-- /wp:group -->',

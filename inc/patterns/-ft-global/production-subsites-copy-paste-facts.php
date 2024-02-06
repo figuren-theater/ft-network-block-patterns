@@ -3,16 +3,19 @@
  * Production Subsites: Todo
  * Handler for copy-baste blockStyle
  *
- * coming from: ft-network-blocks-blockmanager
+ * Coming from: ft-network-block-editor
+ *
+ * @package figuren-theater/ft-network-block-patterns
  */
+
 return array(
-	'title'       => __( 'Copy & Paste Facts for a production', 'ft-network-block-patterns' ),
-	'description' => 'Klicke einfach auf die Textbausteine die du benötigst um sie in deine Zwischenablage zu kopieren.',
-	// 'viewportWidth' => 300,
-	'categories'  => array( 'page','theatrebase' ),
-	'postTypes'   => array('tb_prod_subsite','ft_production'), // unsupported, yet.
-	'blockTypes'  => array('core/post-content'),
-	'content'     => '<!-- wp:heading -->
+	'title'         => __( 'Copy & Paste Facts for a production', 'ft-network-block-patterns' ),
+	'description'   => 'Klicke einfach auf die Textbausteine die du benötigst um sie in deine Zwischenablage zu kopieren.',
+	'viewportWidth' => 500,
+	'categories'    => array( 'page', 'theatrebase' ),
+	'postTypes'     => array( 'tb_prod_subsite', 'ft_production' ), // unsupported, yet.
+	'blockTypes'    => array( 'core/post-content' ),
+	'content'       => '<!-- wp:heading -->
 <h2>Copy &amp; Paste Fakten zum Stück </h2>
 <!-- /wp:heading -->
 

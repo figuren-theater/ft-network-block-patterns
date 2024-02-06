@@ -2,9 +2,11 @@
 /**
  * Miniblock OOAK: Block Patterns
  *
- * @package miniblock-ooak
  * @since 1.0.0
+ * 
+ * @package figuren-theater/ft-network-block-patterns
  */
+
 return array(
 	// 'dual-images',
 	// 'columns-with-images',

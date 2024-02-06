@@ -53,35 +53,35 @@ msgstr ""
 msgid "This page could not be found."
 msgstr "Diese Seite kann nicht gefunden werden."
 
-#: inc/patterns/__ft_global/copyright.php:7
+#: inc/patterns/-ft-global/copyright.php:7
 msgid "Copyright (Current Year)"
 msgstr "Copyright (Aktuelles Jahr)"
 
-#: inc/patterns/__ft_global/footer-musthave-navigation.php:6
+#: inc/patterns/-ft-global/footer-musthave-navigation.php:6
 msgid "Minimal Navigation"
 msgstr "Minimal Navigation"
 
-#: inc/patterns/__ft_global/footer-musthave-navigation.php:7
+#: inc/patterns/-ft-global/footer-musthave-navigation.php:7
 msgid "Navigation containing prepared Links to \"Kontakt\", \"Impressum\" & \"Datenschutz\""
 msgstr "Navigation mit vorbereiteten Links zu \"Kontakt\", \"Impressum\" & \"Datenschutz\""
 
-#: inc/patterns/__ft_global/merch-websfft-and-wp.php:7
+#: inc/patterns/-ft-global/merch-websfft-and-wp.php:7
 msgid "Merch Links websites.fuer.figuren.theater & WordPress"
 msgstr "Werbe-Links zu websites.fuer.figuren.theater & WordPress"
 
-#: inc/patterns/__ft_global/production-page-dark.php:9
+#: inc/patterns/-ft-global/production-page-dark.php:9
 msgid "Production Page: Dark variant"
 msgstr "Produktions-Seite: Dunkel"
 
-#: inc/patterns/__ft_global/production-page.php:9
+#: inc/patterns/-ft-global/production-page.php:9
 msgid "Production Page: Light variant"
 msgstr "Produktions-Seite: Hell"
 
-#: inc/patterns/__ft_global/production-subsites-playlist.php:9
+#: inc/patterns/-ft-global/production-subsites-playlist.php:9
 msgid "Production Subsite Audio PLaylist"
 msgstr "Produktions-Unterseite Audio Playlist"
 
-#: inc/patterns/__ft_global/production-subsites-todo.php:8
+#: inc/patterns/-ft-global/production-subsites-todo.php:8
 msgid "Prepare & Setup"
 msgstr "Vorbereiten & Auffüllen"
 

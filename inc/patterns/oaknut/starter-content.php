@@ -1,11 +1,13 @@
 <?php
 /**
- * f.t Starter content for the theme.
+ * Starter content for the oaknut theme, modified to better fit the figuren.theater network.
+ *
+ * @package figuren-theater/ft-network-block-patterns
  */
+
 return array(
 	'title'      => 'f.t Starter content for the theme.',
 	'categories' => array( 'oaknut' ),
-	// 'blockTypes' => array('core/post-content'),
 	'inserter'   => 'yes',
 	'content'    => '<!-- wp:cover {"dimRatio":0,"overlayColor":"background","minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","isDark":false,"className":"is-style-oaknut-space-between","style":{"spacing":{"padding":{"top":"0","bottom":"0","right":"0","left":"0"}}}} -->
 <div class="wp-block-cover is-light is-style-oaknut-space-between"
