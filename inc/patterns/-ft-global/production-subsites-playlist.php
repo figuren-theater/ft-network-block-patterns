@@ -1,16 +1,15 @@
 <?php
 /**
- * Production Subsite Audio PLaylist
+ * Production Subsite Audio Playlist
  *
- * @package ..
+ * @package figuren-theater/ft-network-block-patterns
  */
 
 return array(
 	'title'      => __( 'Production Subsite Audio Playlist', 'ft-network-block-patterns' ),
-	// 'viewportWidth' => 300,
-	'categories' => array( 'page', 'columns','theatrebase' ),
-	'postTypes'  => array('tb_prod_subsite','ft_production'), // unsupported, yet.
-	'blockTypes' => array('core/post-content'),
+	'categories' => array( 'page', 'columns', 'theatrebase' ),
+	'postTypes'  => array( 'tb_prod_subsite', 'ft_production' ),
+	'blockTypes' => array( 'core/post-content' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"backgroundColor":"foreground","textColor":"background"} -->
 		<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-link-color"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"3vw"}}}} -->
 		<div class="wp-block-group alignwide" style="padding-top:3vw"><!-- wp:columns {"verticalAlignment":null} -->
@@ -121,12 +120,12 @@ return array(
 		<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dspacing\u002d\u002dsmall, 1.25rem)","bottom":"var(\u002d\u002dwp\u002d\u002dcustom\u002d\u002dspacing\u002d\u002dsmall, 1.25rem)"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
 		<div class="wp-block-group alignfull has-background-color has-foreground-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--small, 1.25rem)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","allowOrientation":false,"justifyContent":"left","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group"><!-- wp:pattern {"slug":"__ft_global/copyright"} /-->
+		<div class="wp-block-group"><!-- wp:pattern {"slug":"-ft-global/copyright"} /-->
 
 		<!-- wp:site-title {"level":0} /--></div>
 		<!-- /wp:group -->
 
-		<!-- wp:pattern {"slug":"__ft_global/merch-websfft-and-wp"} /--></div>
+		<!-- wp:pattern {"slug":"-ft-global/merch-websfft-and-wp"} /--></div>
 		<!-- /wp:group --></div>
 		<!-- /wp:group --></div>
 		<!-- /wp:group -->',

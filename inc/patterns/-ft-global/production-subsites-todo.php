@@ -2,16 +2,18 @@
 /**
  * Production Subsites: Todo
  * Handler for 3rd-party Block
+ *
+ * @package figuren-theater/ft-network-block-patterns
  */
 
 return array(
-	'title'      => __( 'Prepare & Setup', 'ft-network-block-patterns' ),
-	// 'viewportWidth' => 300,
-	'categories' => array( 'page','theatrebase' ),
-	'postTypes'  => array('tb_prod_subsite','ft_production'), // unsupported, yet.
-	'blockTypes' => array('core/post-content'),
-	'content'    => '<!-- wp:heading -->
-<h2>'.__( 'Prepare & Setup', 'ft-network-block-patterns' ).'</h2>
+	'title'         => __( 'Prepare & Setup', 'ft-network-block-patterns' ),
+	'viewportWidth' => 500,
+	'categories'    => array( 'page', 'theatrebase' ),
+	'postTypes'     => array( 'tb_prod_subsite', 'ft_production' ), // unsupported, yet.
+	'blockTypes'    => array( 'core/post-content' ),
+	'content'       => '<!-- wp:heading -->
+<h2>' . __( 'Prepare & Setup', 'ft-network-block-patterns' ) . '</h2>
 <!-- /wp:heading -->
 
 <!-- wp:pluginette/todo-block-list {"className":"is-style-ft-todo"} -->

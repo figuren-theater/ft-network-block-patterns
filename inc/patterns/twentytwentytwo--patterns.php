@@ -3,7 +3,10 @@
  * Twenty Twenty-Two: Block Patterns
  *
  * @since Twenty Twenty-Two 1.0
+ *
+ * @package figuren-theater/ft-network-block-patterns
  */
+
 return array(
 	'footer-blog',
 	'footer-dark',

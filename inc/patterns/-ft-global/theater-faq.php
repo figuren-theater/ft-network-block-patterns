@@ -1,18 +1,18 @@
 <?php
 /**
  * Typicall theater FAQ example using yoasts FAQ-block
+ *
+ * @package figuren-theater/ft-network-block-patterns
  */
+
 return array(
-	'title'      => __( 'FAQ', 'ft-network-block-patterns' ),
-	'description'   => __( 'Frequently answered questions for theaters.', 'ft-network-block-patterns' ),
-	'keywords'      => array( 
+	'title'       => __( 'FAQ', 'ft-network-block-patterns' ),
+	'description' => __( 'Frequently answered questions for theaters.', 'ft-network-block-patterns' ),
+	'keywords'    => array( 
 		'yoast-faq',
-#		__( 'Duration', 'ft-network-block-patterns' ),
-#		__( 'Premiere', 'ft-network-block-patterns' ),
-#		__( 'Location', 'ft-network-block-patterns' ),
 	),
-	'categories' => array( 'text', 'columns','theatrebase' ),
-	'content'    => '<!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
+	'categories'  => array( 'text', 'columns', 'theatrebase' ),
+	'content'     => '<!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"12rem","textTransform":"lowercase"},"spacing":{"margin":{"left":"10rem"}}},"textColor":"primary"} -->
 <h2 class="has-text-align-center has-primary-color has-text-color" style="margin-left:10rem;font-size:12rem;text-transform:lowercase">FAQ</h2>

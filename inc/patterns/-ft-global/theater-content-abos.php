@@ -1,7 +1,12 @@
 <?php
 /**
- * ...
+ * Subscribe to my content in 1000 ways
+ * 
+ * Including RSS, iCal, Newsletter etc.
+ *
+ * @package figuren-theater/ft-network-block-patterns
  */
+
 return array(
 	'title'       => __( 'Theater Contents Subsciptions', 'ft-network-block-patterns' ),
 	'description' => __( 'Button-Groups to subscribe to all channels of the website.', 'ft-network-block-patterns' ),
@@ -11,7 +16,7 @@ return array(
 		__( 'Feed', 'ft-network-block-patterns' ),
 		__( 'Newsletter', 'ft-network-block-patterns' ),
 	),
-	'categories'  => array( 'text','buttons','call-to-action','theatrebase' ),
+	'categories'  => array( 'text', 'buttons', 'call-to-action', 'theatrebase' ),
 	'content'     => '<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p>Alle Inhalte im Abo, mit diesen RSS-Feeds:</p>

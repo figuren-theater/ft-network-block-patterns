@@ -2,21 +2,23 @@
 /**
  * Handler for copy-baste blockStyle
  *
- * coming from: ft-network-blocks-blockmanager
+ * Coming from: ft-network-block-editor
+ *
+ * @package figuren-theater/ft-network-block-patterns
  */
 
 return array(
-	'title'       => __( 'Copy & Paste Fact', 'ft-network-block-patterns' ),
-	'description' => 'Klicke auf den Textbaustein den du benötigst um ihn in deine Zwischenablage zu kopieren.',
-	'keywords'    => array( 
+	'title'         => __( 'Copy & Paste Fact', 'ft-network-block-patterns' ),
+	'description'   => 'Klicke auf den Textbaustein den du benötigst um ihn in deine Zwischenablage zu kopieren.',
+	'keywords'      => array( 
 		__( 'clipboard', 'ft-network-block-patterns' ),
 		__( 'cache', 'ft-network-block-patterns' ),
 	),
-	// 'viewportWidth' => 300,
-	'categories'  => array( 'text','theatrebase' ),
-	// 'postTypes'   => 'tb_prod_subsite', // unsupported, yet.
-	'blockTypes'  => array('core/group'),
-	'content'     => '<!-- wp:paragraph {"textColor":"cyan-bluish-gray","className":"has-text-align-left"} -->
+	'viewportWidth' => 500,
+	'categories'    => array( 'text', 'theatrebase' ),
+	'postTypes'     => 'tb_prod_subsite',
+	'blockTypes'    => array( 'core/group' ),
+	'content'       => '<!-- wp:paragraph {"textColor":"cyan-bluish-gray","className":"has-text-align-left"} -->
 <p class="has-text-align-left has-cyan-bluish-gray-color has-text-color"><em>Klicke auf den Textbaustein den du benötigst um ihn in deine Zwischenablage zu kopieren.</em></p>
 <!-- /wp:paragraph -->
 
