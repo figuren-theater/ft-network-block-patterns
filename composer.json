@@ -1,42 +1,42 @@
 {
 	"name": "figuren-theater/ft-network-block-patterns",
 	"description": "Replaces block-patterns taken from themes with customized versions for the figuren.theater WordPress multisite network.",
-    "license": "GPL-3.0+",
-    "type": "wordpress-plugin",
-    "keywords": [
-        "wordpress",
-        "wordpress-plugin",
-        "site-editor",
-        "blocks",
-        "block-pattern",
-        "block-theme"
-    ],
-    "authors": [
-        {
-            "name": "figuren.theater",
-            "email": "info@figuren.theater"
-        },
-        {
-            "name": "Carsten Bach",
-            "email": "mail@carsten-bach.de",
-            "homepage": "https://carsten-bach.de",
-            "role": "Developer"
-        }
-    ],
-    "homepage": "https://websites.fuer.figuren.theater",
-    "support": {
-        "email": "info@figuren.theater",
-        "issues": "https://github.com/figuren-theater/ft-network-block-patterns/issues",
-        "source": "https://github.com/figuren-theater/ft-network-block-patterns"
-    },
-    "require-dev": {
-        "figuren-theater/code-quality": "*"
-    },
+	"license": "GPL-3.0+",
+	"type": "wordpress-plugin",
+	"keywords": [
+		"wordpress",
+		"wordpress-plugin",
+		"site-editor",
+		"blocks",
+		"block-pattern",
+		"block-theme"
+	],
+	"authors": [
+		{
+			"name": "figuren.theater",
+			"email": "info@figuren.theater"
+		},
+		{
+			"name": "Carsten Bach",
+			"email": "mail@carsten-bach.de",
+			"homepage": "https://carsten-bach.de",
+			"role": "Developer"
+		}
+	],
+	"homepage": "https://websites.fuer.figuren.theater",
+	"support": {
+		"email": "info@figuren.theater",
+		"issues": "https://github.com/figuren-theater/ft-network-block-patterns/issues",
+		"source": "https://github.com/figuren-theater/ft-network-block-patterns"
+	},
+	"require-dev": {
+		"figuren-theater/code-quality": "*"
+	},
 	"config": {
 		"allow-plugins": {
-			"phpstan/extension-installer": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true,
 			"ergebnis/composer-normalize": true,
-			"dealerdirect/phpcodesniffer-composer-installer": true
+			"phpstan/extension-installer": true
 		}
 	}
 }
