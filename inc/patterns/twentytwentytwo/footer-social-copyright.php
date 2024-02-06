@@ -1,7 +1,10 @@
 <?php
 /**
  * Footer with social links and copyright
+ * 
+ * @package figuren-theater/ft-network-block-patterns
  */
+
 return array(
 	'title'      => __( 'Footer with social links and copyright', 'twentytwentytwo' ),
 	'categories' => array( 'footer' ),
@@ -21,7 +24,7 @@ return array(
 					<!-- /wp:spacer -->
 
 					<!-- wp:group {"layout":{"type":"flex","allowOrientation":false,"justifyContent":"center","flexWrap":"nowrap"}} -->
-					<div class="wp-block-group"><!-- wp:pattern {"slug":"__ft_global/copyright"} /-->
+					<div class="wp-block-group"><!-- wp:pattern {"slug":"-ft-global/copyright"} /-->
 
 					<!-- wp:site-title {"level":0} /--></div>
 					<!-- /wp:group --></div>

@@ -1,7 +1,10 @@
 <?php
 /**
  * Grid of Posts
+ *
+ * @package figuren-theater/ft-network-block-patterns
  */
+
 return array(
 	'title'      => __( 'Grid of Productions', 'twentytwentytwo' ),
 	'categories' => array( 'featured', 'query' ),

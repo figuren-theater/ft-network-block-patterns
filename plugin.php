@@ -2,7 +2,8 @@
 /**
  * Load the ft-network-block-patterns WordPress plugin.
  * 
- * Replaces block-patterns taken from themes with customized versions for the figuren.theater WordPress multisite network.
+ * Replaces block-patterns taken from themes,
+ * with customized versions for the figuren.theater WordPress multisite network.
  *
  * @package           figuren-theater/ft-network-block-patterns
  * @author            figuren.theater
@@ -32,6 +33,8 @@ use function add_action;
 const DIRECTORY = __DIR__;
 
 /**
+ * TO REMOVE 
+ * 
  * @todo Add (composer) autoloading strategy
  */
 require_once DIRECTORY . '/inc/namespace.php'; // phpcs:ignore WordPressVIPMinimum.Files.IncludingFile.UsingCustomConstant

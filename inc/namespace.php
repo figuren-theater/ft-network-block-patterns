@@ -43,11 +43,12 @@ function register(): void {
 	/**
 	 * Check whether patterns exists, to load globally.
 	 */
-	if ( do_block_patterns_exist( '__ft_global' ) ) {
+	$patterns_list = do_block_patterns_exist( '-ft-global' );
+	if ( false !== $patterns_list ) {
 		// Registers two custom pattern-categories to WordPress.
 		register_block_pattern_categories();
 		// Register patterns to load globally.
-		register_patterns( '__ft_global' );
+		register_patterns( '-ft-global', $patterns_list );
 	}
 
 	// Get current theme.
@@ -61,54 +62,70 @@ function register(): void {
 
 	// Get current template.
 	// Could be same as $current_theme as a String, in case it's not a Child Theme.
-	// Casted to String like hell.
-	$template = '' . $current_theme->__get( 'template' );
+	$template = $current_theme->__get( 'template' );
 
-	// Check whether some patterns to replace exists for the given parent-theme.
-	if ( ! do_block_patterns_exist( $template ) ) {
+	// Add some typesafety.
+	if ( ! \is_string( $template ) ) {
 		return;
 	}
 
-	// Finally, register the theme and child-theme replacements.
-	register_patterns( $template );
+	/**
+	 * Check whether some patterns to replace exists for the given parent-theme.
+	 */
+	$patterns_list = do_block_patterns_exist( $template );
+	if ( false !== $patterns_list ) {
+		// Finally, register the theme and child-theme replacements.
+		register_patterns( $template, $patterns_list );
+	}
 }
 
-
-function do_block_patterns_exist( string $folder ): bool {
+/**
+ * Checks if patterns exists for a given theme.
+ * 
+ * Returns false or a list of pattern slugs.
+ *
+ * @param  string $theme Slug of a theme.
+ *
+ * @return false|string[]
+ */
+function do_block_patterns_exist( string $theme ): false|array {
 	// could be here ...
-	$patterns_of_theme = DIRECTORY . '/inc/patterns/' . $folder . '--patterns.php';
+	$patterns_of_theme = DIRECTORY . '/inc/patterns/' . $theme . '--patterns.php';
 	if ( ! file_exists( $patterns_of_theme ) ) {
 		return false;
 	}
 
-	// load pattern-names array
-	$this_NEEDS2CHANGE__block_patterns[ $folder ] = require $patterns_of_theme;
-	return (
-		isset( $this_NEEDS2CHANGE__block_patterns[ $folder ] )
-		&&
-		! empty( $this_NEEDS2CHANGE__block_patterns[ $folder ] )
-	);
+	// Load pattern-names to replace into array.
+	$pattern_list = require $patterns_of_theme; // phpcs:ignore WordPressVIPMinimum.Files.IncludingFile.UsingVariable
+
+	// Check for the existence of patterns.
+	if ( ! isset( $pattern_list ) || empty( $pattern_list ) ) {
+		return false;
+	}
+
+	// Everything good, so return the list of patterns to replace within the current theme.
+	return $pattern_list;
 }
 
 
-
-function register_patterns( string $_namespace ): void {
-	/**
-	 * Filters the theme block patterns.
-	 *
-	 * @param array $block_patterns List of block patterns by name.
-	 */
-	$block_patterns = apply_filters(
-		__NAMESPACE__ . '\\' . $_namespace . '_block_patterns',
-		$this_NEEDS2CHANGE__block_patterns[ $_namespace ]
-	);
+/**
+ * Registers a bunch of given block-patterns.
+ * 
+ * Does this for a given theme by looking the paaterns up in a defined location for each theme.
+ *
+ * @param  string   $theme          Slug of a theme.
+ * @param  string[] $block_patterns Array of block-pattern slugs.
+ *
+ * @return void
+ */
+function register_patterns( string $theme, array $block_patterns ): void {
 
 	foreach ( $block_patterns as $block_pattern ) {
-		$pattern_file = DIRECTORY . 'inc/patterns/' . $_namespace . '/' . $block_pattern . '.php';
+		$pattern_file = DIRECTORY . 'inc/patterns/' . $theme . '/' . $block_pattern . '.php';
 
 		register_block_pattern(
-			$_namespace . '/' . $block_pattern,
-			require $pattern_file
+			$theme . '/' . $block_pattern,
+			require $pattern_file  // phpcs:ignore WordPressVIPMinimum.Files.IncludingFile.UsingVariable
 		);
 	}
 }
