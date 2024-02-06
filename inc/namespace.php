@@ -5,9 +5,8 @@
  * @package figuren-theater/ft-network-block-patterns
  */
 
-namespace Figuren_Theater\Site_Editing\FT_Network_Block_Patterns;
+namespace Figuren_Theater\Site_Editing\Network_Block_Patterns;
 
-use function apply_filters;
 use function load_plugin_textdomain;
 use function register_block_pattern;
 use function remove_theme_support;

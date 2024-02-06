@@ -26,7 +26,7 @@
  * Update URI:        https://github.com/figuren-theater/ft-network-block-patterns
  */
 
-namespace Figuren_Theater\Site_Editing\FT_Network_Block_Patterns;
+namespace Figuren_Theater\Site_Editing\Network_Block_Patterns;
 
 use function add_action;
 
