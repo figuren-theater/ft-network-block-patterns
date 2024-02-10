@@ -32,9 +32,5 @@ return array(
 	'theater-faq',
 	'theater-content-abos',
 
-	// Typical full-page Layouts for typical production-subsites.
-	'production-subsites-copy-paste-facts',
-	'production-subsites-playlist',
-	'production-subsites-playlist-v2',
-	'production-subsites-todo',
+
 );
