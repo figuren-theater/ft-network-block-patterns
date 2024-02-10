@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-network-block-patterns/compare/1.1.0...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-network-block-patterns/compare/1.1.1...HEAD)
+
+## [1.1.1](https://github.com/figuren-theater/ft-network-block-patterns/compare/1.1.0...1.1.1) - 2024-02-10
+
+### 🐛 Fixed
+
+- Move patterns for production-subsites into 'theater-production-subsites' repo ([#9](https://github.com/figuren-theater/ft-network-block-patterns/pull/9))
 
 ## [1.1.0](https://github.com/figuren-theater/ft-network-block-patterns/compare/1.0.5...1.1.0) - 2024-02-07
 
