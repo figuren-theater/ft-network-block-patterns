@@ -14,7 +14,7 @@
  * Plugin Name:       f.t | NETWORK Block Patterns
  * Plugin URI:        https://github.com/figuren-theater/ft-network-block-patterns
  * Description:       Replaces block-patterns taken from themes with customized versions for the figuren.theater WordPress multisite network.
- * Version:           1.1.0
+ * Version:           1.1.1
  * Requires at least: 6.0
  * Requires PHP:      7.1
  * Author:            figuren.theater
