@@ -16,7 +16,7 @@ return array(
 	),
 	'viewportWidth' => 500,
 	'categories'    => array( 'text', 'theatrebase' ),
-	'postTypes'     => 'tb_prod_subsite',
+	// 'postTypes'     => '',
 	'blockTypes'    => array( 'core/group' ),
 	'content'       => '<!-- wp:paragraph {"textColor":"cyan-bluish-gray","className":"has-text-align-left"} -->
 <p class="has-text-align-left has-cyan-bluish-gray-color has-text-color"><em>Klicke auf den Textbaustein den du benötigst um ihn in deine Zwischenablage zu kopieren.</em></p>
