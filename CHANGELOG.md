@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-network-block-patterns/compare/1.1.1...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-network-block-patterns/compare/1.1.2...HEAD)
+
+## [1.1.2](https://github.com/figuren-theater/ft-network-block-patterns/compare/1.1.1...1.1.2) - 2024-02-22
+
+### 🐛 Fixed
+
+- Fix missing slash in path ([#11](https://github.com/figuren-theater/ft-network-block-patterns/pull/11))
+
+### Dependency Updates & Maintenance
+
+- Bump figuren-theater/code-quality from 1.0.1 to 1.1.1 ([#10](https://github.com/figuren-theater/ft-network-block-patterns/pull/10))
 
 ## [1.1.1](https://github.com/figuren-theater/ft-network-block-patterns/compare/1.1.0...1.1.1) - 2024-02-10
 
