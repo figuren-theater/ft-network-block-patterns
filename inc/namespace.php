@@ -120,7 +120,7 @@ function do_block_patterns_exist( string $theme ): false|array {
 function register_patterns( string $theme, array $block_patterns ): void {
 
 	foreach ( $block_patterns as $block_pattern ) {
-		$pattern_file = DIRECTORY . 'inc/patterns/' . $theme . '/' . $block_pattern . '.php';
+		$pattern_file = DIRECTORY . '/inc/patterns/' . $theme . '/' . $block_pattern . '.php';
 
 		register_block_pattern(
 			$theme . '/' . $block_pattern,
